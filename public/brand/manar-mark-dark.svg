@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none" aria-label="MANAR mark dark">
+  <defs>
+    <linearGradient id="rayGradDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E5C77B" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#E5C77B" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#E5C77B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 228 L100 198" stroke="#F8F4E8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M100 198 C72 196 48 204 28 218 C52 208 76 200 100 198" stroke="#F8F4E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M100 198 C128 196 152 204 172 218 C148 208 124 200 100 198" stroke="#F8F4E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M100 198 C78 200 58 208 40 216 C58 210 78 204 100 202" stroke="#E5C77B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M100 198 C122 200 142 208 160 216 C142 210 122 204 100 202" stroke="#E5C77B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M38 198 L38 128 Q38 72 100 38 Q162 72 162 128 L162 198" stroke="#F8F4E8" stroke-width="5" fill="none" stroke-linejoin="round"/>
+  <path d="M48 198 L48 130 Q48 78 100 48 Q152 78 152 130 L152 198" stroke="#E5C77B" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+  <path d="M72 118 L52 108" stroke="url(#rayGradDark)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M68 108 L44 98" stroke="url(#rayGradDark)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M64 98 L38 92" stroke="url(#rayGradDark)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M128 118 L148 108" stroke="url(#rayGradDark)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M132 108 L156 98" stroke="url(#rayGradDark)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M136 98 L162 92" stroke="url(#rayGradDark)" stroke-width="2" stroke-linecap="round"/>
+  <rect x="88" y="168" width="24" height="30" rx="1" fill="#E5C77B"/>
+  <path d="M94 192 Q100 186 106 192" stroke="#073B3A" stroke-width="1.5" fill="none"/>
+  <rect x="90" y="148" width="20" height="20" fill="#E5C77B"/>
+  <rect x="86" y="140" width="28" height="8" fill="#E5C77B"/>
+  <path d="M90 140 L90 136 Q100 128 110 136 L110 140" fill="#E5C77B"/>
+  <rect x="92" y="132" width="16" height="6" rx="1" fill="#C89B3C"/>
+  <ellipse cx="100" cy="128" rx="10" ry="6" fill="#F8F4E8"/>
+  <path d="M91 152 h4 M96 152 h4 M101 152 h4 M106 152 h4" stroke="#073B3A" stroke-width="1"/>
+  <path d="M74 142 L76 146 L80 148 L76 150 L74 154 L72 150 L68 148 L72 146 Z" fill="#C89B3C"/>
+  <path d="M126 142 L128 146 L132 148 L128 150 L126 154 L124 150 L120 148 L124 146 Z" fill="#C89B3C"/>
+  <path d="M100 58 L104 66 L112 66 L106 72 L108 80 L100 76 L92 80 L94 72 L88 66 L96 66 Z" fill="none" stroke="#C89B3C" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M100 62 L103 68 L109 68 L104 72 L106 78 L100 75 L94 78 L96 72 L91 68 L97 68 Z" fill="#C89B3C" fill-opacity="0.35"/>
+</svg>

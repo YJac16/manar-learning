@@ -1,0 +1,5 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="92" fill="#F8F4E8" opacity="0.55"/>
+  <text x="100" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#073B3A">1</text>
+  <path d="M100 145 L104 158 L118 158 L107 166 L111 180 L100 172 L89 180 L93 166 L82 158 L96 158 Z" fill="#C89B3C" transform="translate(0,-8) scale(0.7)"/>
+</svg>

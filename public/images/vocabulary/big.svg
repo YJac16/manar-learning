@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="92" fill="#F8F4E8" opacity="0.55"/>
+  <ellipse cx="75" cy="130" rx="35" ry="28" fill="#0E625B"/>
+  <circle cx="75" cy="88" r="22" fill="#073B3A"/>
+  <ellipse cx="145" cy="148" rx="12" ry="10" fill="#DCCBA7"/>
+  <circle cx="145" cy="138" r="8" fill="#E5C77B"/>
+  <text x="100" y="52" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#073B3A">BIG</text>
+</svg>

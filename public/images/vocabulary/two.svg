@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="92" fill="#F8F4E8" opacity="0.55"/>
+  <text x="100" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#073B3A">2</text>
+  <path d="M78 148 L81 158 L91 158 L83 164 L86 174 L78 168 L70 174 L73 164 L65 158 L75 158 Z" fill="#C89B3C"/>
+  <path d="M122 148 L125 158 L135 158 L127 164 L130 174 L122 168 L114 174 L117 164 L109 158 L119 158 Z" fill="#C89B3C"/>
+</svg>

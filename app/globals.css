@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  --manar-emerald: #073b3a;
+  --manar-teal: #0e625b;
+  --manar-gold: #c89b3c;
+  --manar-light-gold: #e5c77b;
+  --manar-ivory: #f8f4e8;
+  --manar-sand: #dccba7;
+  --manar-charcoal: #172525;
+  --background: var(--manar-ivory);
+  --foreground: var(--manar-charcoal);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-manar-emerald: var(--manar-emerald);
+  --color-manar-teal: var(--manar-teal);
+  --color-manar-gold: var(--manar-gold);
+  --color-manar-light-gold: var(--manar-light-gold);
+  --color-manar-ivory: var(--manar-ivory);
+  --color-manar-sand: var(--manar-sand);
+  --color-manar-charcoal: var(--manar-charcoal);
+  --font-sans: var(--font-nunito);
+  --font-display: var(--font-fraunces);
+  --font-arabic: var(--font-noto-arabic);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-nunito), system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+}
+
+.font-arabic {
+  font-family: var(--font-noto-arabic), "Noto Naskh Arabic", serif;
+}
+
+@keyframes magnet-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-4px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes soft-pop {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.motion-safe\:animate-soft-pop {
+  animation: soft-pop 0.35s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.reduced-motion *,
+.reduced-motion *::before,
+.reduced-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+/* Soft geometric page atmosphere — never behind quiz text density */
+.manar-atmosphere {
+  background-color: var(--manar-ivory);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(200, 155, 60, 0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(14, 98, 91, 0.08), transparent),
+    radial-gradient(ellipse 50% 30% at 0% 80%, rgba(7, 59, 58, 0.06), transparent);
+}
+
+.manar-arch-frame {
+  border: 2px solid rgba(200, 155, 60, 0.35);
+  border-radius: 1.5rem 1.5rem 1rem 1rem;
+  box-shadow: 0 8px 24px rgba(23, 37, 37, 0.06);
+}

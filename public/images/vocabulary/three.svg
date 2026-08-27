@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="92" fill="#F8F4E8" opacity="0.55"/>
+  <text x="100" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#073B3A">3</text>
+  <path d="M68 150 L71 158 L79 158 L73 163 L75 171 L68 166 L61 171 L63 163 L57 158 L65 158 Z" fill="#C89B3C"/>
+  <path d="M100 150 L103 158 L111 158 L105 163 L107 171 L100 166 L93 171 L95 163 L89 158 L97 158 Z" fill="#C89B3C"/>
+  <path d="M132 150 L135 158 L143 158 L137 163 L139 171 L132 166 L125 171 L127 163 L121 158 L129 158 Z" fill="#C89B3C"/>
+</svg>
