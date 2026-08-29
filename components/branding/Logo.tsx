@@ -22,11 +22,11 @@ export function Logo({
   const src =
     variant === "mark"
       ? dark
-        ? "/brand/manar-mark-dark.svg"
-        : "/brand/manar-mark.svg"
+        ? "/brand/manar-mark-dark.png"
+        : "/brand/manar-mark.png"
       : dark
-        ? "/brand/manar-logo-dark.svg"
-        : "/brand/manar-logo.svg";
+        ? "/brand/manar-logo-dark.png"
+        : "/brand/manar-logo.png";
 
   const image = (
     <Image

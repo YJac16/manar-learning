@@ -43,7 +43,7 @@ npm run build
 | Sand | `#DCCBA7` |
 | Charcoal | `#172525` |
 
-Logo assets live in [`public/brand/`](public/brand/).
+Logo and favicon assets live in [`public/brand/`](public/brand/). The circular emblem is used for the in-app logo, browser favicons (`favicon.ico` / PNG / SVG), Apple touch icon, Android Chrome icons, and [`public/site.webmanifest`](public/site.webmanifest).
 
 ## Architecture
 
