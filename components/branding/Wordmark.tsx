@@ -15,7 +15,7 @@ export function Wordmark({
 }: WordmarkProps) {
   const content = (
     <div className={cn("inline-flex items-center gap-3", className)}>
-      {showMark && <Logo width={36} height={36} />}
+      {showMark && <Logo width={48} height={48} />}
       <span className="flex flex-col leading-tight">
         <span className="font-display text-xl font-bold tracking-wide text-[#073B3A] sm:text-2xl">
           MANĀR
