@@ -34,7 +34,8 @@ export function Logo({
       alt={linked ? "" : "MANĀR"}
       width={width}
       height={height}
-      className="h-auto w-auto"
+      className="shrink-0 object-contain"
+      style={{ width, height }}
       priority
     />
   );
